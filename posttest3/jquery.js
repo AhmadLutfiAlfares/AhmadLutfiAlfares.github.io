@@ -4,7 +4,7 @@
 
 
 $(document).ready(function(){
-  $("#button").click(function(){
+  $("#dark-mode").click(function(){
       alert("Dark Mode Berhasil")
       $('body').toggleClass('dark-mode');
   });
@@ -16,6 +16,7 @@ $(document).ready(function(){
     $('body').toggleClass('dark-mode');
   });
 });
+
 
 
 
